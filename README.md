@@ -1,5 +1,6 @@
 
 ````markdown
+````
 # 🧪 API Backend - NestJS + Prisma
 
 API REST desarrollada con **NestJS**, **Prisma ORM** y **MySQL**, como parte de una prueba técnica. Permite crear usuarios, asociarles mensajes y consultar dicha información mediante endpoints documentados con Swagger.
@@ -173,14 +174,14 @@ Content-Type: application/json
 
 {
   "content": "Hola mundo",
-  "userId": 1
+  "userId": "21e08b9f-78ec-4017-8957-d0d0d5b95de9"
 }
 ```
 
 ### Listar mensajes de un usuario
 
 ```http
-GET /users/1/messages
+GET /users/21e08b9f-78ec-4017-8957-d0d0d5b95de9/messages
 ```
 
 ---
