@@ -31,6 +31,7 @@ Crea un archivo `.env` en la raíz del proyecto con el siguiente contenido:
 ```env
 DATABASE_URL="mysql://USER:PASSWORD@localhost:3306/nest_prueba"
 ````
+
 ---
 
 ## 📦 Instalación
@@ -130,7 +131,7 @@ SwaggerModule.setup('docs', app, document); // Ruta: /docs
 
 ## 🗂 Estructura del proyecto
 
-```
+```txt
 src/
 ├── users/
 │   ├── users.controller.ts
@@ -225,4 +226,4 @@ Este proyecto fue desarrollado con fines educativos y técnicos. Puedes adaptarl
 Desarrollado por [Elver Tunubala](https://github.com/ElverTunubala) como parte de una prueba técnica.
 
 ```
-```
+
